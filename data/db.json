@@ -1,0 +1,290 @@
+{
+    "Topi": [{
+            "id": 1,
+            "name": "Topi Putih Polos",
+            "image": "https://source.unsplash.com/t8HiP3e5abg/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.50.000.00-,"
+        },
+        {
+            "id": 2,
+            "name": "Topi Jeans",
+            "image": "https://source.unsplash.com/2loKxdi6Hmo/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.50.000.00-,"
+        },
+        {
+            "id": 3,
+            "name": "Topi BN Merah",
+            "image": "https://source.unsplash.com/yGeVdMgmFyE/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.50.000.00-,"
+        },
+        {
+            "id": 4,
+            "name": "Topi coffee Hitam ",
+            "image": "https://source.unsplash.com/p98GwQHzYPQ/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.50.000.00-,"
+        },
+        {
+            "id": 5,
+            "name": "Topi Blue Navy",
+            "image": "https://source.unsplash.com/AsOhqrNB4gc/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.50.000.00-,"
+        },
+        {
+            "id": 6,
+            "name": "Kaos Hijau Polos",
+            "image": "https://source.unsplash.com/Ur742-klaa4/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.50.000.00-,"
+        },
+        {
+            "id": 7,
+            "name": "Topi Worthy",
+            "image": "https://source.unsplash.com/BIr8rxlnD1s/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.50.000.00-,"
+        }, {
+            "id": 8,
+            "name": "Topi Blue Navy Classic",
+            "image": "https://source.unsplash.com/GTUtwblmomM/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.50.000.00-,"
+        }
+    ],
+
+    "Kemeja": [{
+            "id": 1,
+            "name": "Kemeja Putih Pendek",
+            "image": "https://source.unsplash.com/9QW52RyBLao/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.100.000.00-,"
+        },
+        {
+            "id": 2,
+            "name": "Kemeja Biru Kotak",
+            "image": "https://source.unsplash.com/mEBXaipoUmg/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.100.000.00-,"
+        },
+        {
+            "id": 3,
+            "name": "Kemeja Biru",
+            "image": "https://source.unsplash.com/2O1EUSTRBrY/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.100.000.00-,"
+        },
+        {
+            "id": 4,
+            "name": "Kemeja Putih Corak",
+            "image": "https://source.unsplash.com/YJN7eCPiCPc/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.100.000.00-,"
+        },
+        {
+            "id": 5,
+            "name": "Kemeja Kotak Kuning",
+            "image": "https://source.unsplash.com/4V4t0JcOM5E/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.100.000.00-,"
+        },
+        {
+            "id": 6,
+            "name": "Kemeja Kotak Merah",
+            "image": "https://source.unsplash.com/dJNtSjCDc74/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.100.000.00-,"
+        },
+        {
+            "id": 7,
+            "name": "Kemeja Biru Panjang",
+            "image": "https://source.unsplash.com/buaYEwJEQD8/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.100.000.00-,"
+        },
+        {
+            "id": 8,
+            "name": "Kemeja Garis Biru",
+            "image": "https://source.unsplash.com/4c23dXiYPhc/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.100.000.00-,"
+        }
+    ],
+
+    "Sepatu": [{
+            "id": 1,
+            "name": "Air max 90 PREMIUM Curry",
+            "image": "https://source.unsplash.com/j1GiPlvSGWI/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.100.000.00-,"
+        },
+        {
+            "id": 2,
+            "name": "Air Jordan 11 Win Like 96",
+            "image": "https://source.unsplash.com/sCt51Xhlu4A/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.100.000.00-,"
+        },
+        {
+            "id": 3,
+            "name": "Red Converse All Star",
+            "image": "https://source.unsplash.com/0BKZfcamvGg/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.100.000.00-,"
+        },
+        {
+            "id": 4,
+            "name": "Nike Air Max",
+            "image": "https://source.unsplash.com/l8p1aWZqHvE/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.100.000.00-,"
+        },
+        {
+            "id": 5,
+            "name": "Vans Red",
+            "image": "https://source.unsplash.com/a-QH9MAAVNI/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.100.000.00-,"
+        },
+        {
+            "id": 6,
+            "name": "Nike Air Force 1 x Carhartt WIP",
+            "image": "https://source.unsplash.com/1vy2QcZd5FU/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.100.000.00-,"
+        },
+        {
+            "id": 7,
+            "name": "Nike Air Force White",
+            "image": "https://source.unsplash.com/SD9Jyl1xNQ4/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.100.000.00-,"
+        },
+        {
+            "id": 8,
+            "name": "Converse Blue",
+            "image": "https://source.unsplash.com/nzYcN7Vz9BI/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.100.000.00-,"
+        }
+    ],
+
+    "Dress": [{
+            "id": 1,
+            "name": "Dess Merah",
+            "image": "https://source.unsplash.com/tyfqOL1FAQc/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.100.000.00-,"
+        },
+        {
+            "id": 2,
+            "name": "indian kashmiri kaftaan Oranye",
+            "image": "https://source.unsplash.com/QrOdhsMAQw8/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.100.000.00-,"
+        },
+        {
+            "id": 3,
+            "name": "indian kashmiri kaftaan Merah muda",
+            "image": "https://source.unsplash.com/G8oolyQhRsM/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.100.000.00-,"
+        },
+        {
+            "id": 4,
+            "name": "indian kashmiri kaftaan Putih",
+            "image": "https://source.unsplash.com/HLZpFeu9nAQ/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.100.000.00-,"
+        },
+        {
+            "id": 5,
+            "name": "indian kashmiri kaftaan Merah",
+            "image": "https://source.unsplash.com/IVyfbGpsuxU/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.100.000.00-,"
+        },
+        {
+            "id": 6,
+            "name": "Dess Purple",
+            "image": "https://source.unsplash.com/PJRabkuH3_Q/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.100.000.00-,"
+        },
+        {
+            "id": 7,
+            "name": "Dess Black",
+            "image": "https://source.unsplash.com/NYjCnvzBZZo/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.100.000.00-,"
+        },
+        {
+            "id": 8,
+            "name": "Classic Navy Blue Gown Dress",
+            "image": "https://source.unsplash.com/PaqF5u-qfCs/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.100.000.00-,"
+        }
+    ],
+
+    "Hells": [{
+            "id": 1,
+            "name": "Heels Blue Flower",
+            "image": "https://source.unsplash.com/E-0ON3VGrBc/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.100.000.00-,"
+        },
+        {
+            "id": 2,
+            "name": "Wedding Heels",
+            "image": "https://source.unsplash.com/Zx76sbAndc0/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.100.000.00-,"
+        },
+        {
+            "id": 3,
+            "name": "Heels Blue Navy",
+            "image": "https://source.unsplash.com/tjvURCarBf0/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.100.000.00-,"
+        },
+        {
+            "id": 4,
+            "name": "Heels Black",
+            "image": "https://source.unsplash.com/pEzLon__DfM/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.100.000.00-,"
+        },
+        {
+            "id": 5,
+            "name": "Classic Heels",
+            "image": "https://source.unsplash.com/AxyUq3Ett08/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.100.000.00-,"
+        },
+        {
+            "id": 6,
+            "name": "Blink Heels",
+            "image": "https://source.unsplash.com/lQ0fFJRzczs/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.100.000.00-,"
+        },
+        {
+            "id": 7,
+            "name": "Modern Pink Heels",
+            "image": "https://source.unsplash.com/87DgFV9SOc4/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.100.000.00-,"
+        },
+        {
+            "id": 8,
+            "name": "Gold Hells",
+            "image": "https://source.unsplash.com/gKIloo1rpn0/230x230",
+            "des": "velit leo tempus purus",
+            "harga": "Rp.100.000.00-,"
+        }
+    ]
+}
