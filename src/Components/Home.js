@@ -1,7 +1,7 @@
 import React from 'react'
-import Logo from '../Assets/Logo.png'
-import { BrowserRouter, Link, Route, Switch } from 'react-router-dom'
+import { Link, Route, Switch } from 'react-router-dom'
 import Wanita from './Wanita'
+import Logo from '../Assets/Logo.png'
 
 
 export default function Home() {
@@ -36,12 +36,7 @@ export default function Home() {
                     <h1 style={{ fontSize: '50px' }}>Welcome To Ruko Emak</h1>
                     <p>Modern fashion shopping place</p>
                     <br />
-                    <Link to="/wanita">
-                        <button>Home</button>
-                    </Link>
-                    <Switch>
-                        <Route path="/wanita" exact component={Wanita} />
-                    </Switch>
+                    <a className="button" href="#portofolio">Galery</a>
                 </div>
             </div>
 
@@ -63,7 +58,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <section className="container">
+            <section id="portofolio" className="container">
                 <div className="gallery">
                     <h2>Gallery</h2>
                     <img src="https://source.unsplash.com/random/201x201/?Fashion" alt="" />
@@ -79,11 +74,30 @@ export default function Home() {
                 </div>
             </section>
 
-            <div className="footer" >
-                <svg viewBox="0 -20 700 110" width="100%" height={110} preserveAspectRatio="none">
-                    <path transform="translate(0, -20)" d="M0,10 c80,-22 240,0 350,18 c90,17 260,7.5 350,-20 v50 h-700" fill="#CEB964" />
-                    <path d="M0,10 c80,-18 230,-12 350,7 c80,13 260,17 350,-5 v100 h-700z" fill="#00273F" />
-                </svg>
+            <div className="container-footer">
+                <div className="footer">
+                    <div className="footer-items">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Fashion</a></li>
+                            <li><a href="#">Development</a></li>
+                        </ul>
+                    </div>
+                    <div className="footer-items">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                        </ul>
+                    </div>
+
+                    <div className="footer-items">
+                        <img width={70} src={Logo} />
+                        <h3>Ruko Emak</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi non voluptatibus, saepe, asperiores beatae error ducimus dicta laudantium, nulla hic qui. Nobis nisi earum deserunt odio quaerat, officia sequi esse excepturi fugit cumque laudantium obcaecati maxime placeat ratione fuga? Cum aut optio repudiandae ipsum, quo illo est molestias nostrum nisi porro voluptatum. Excepturi nemo suscipit, nam laborum officia eveniet, aspernatur quas corporis iusto quisquam minus rerum culpa dignissimos unde. Odio.</p>
+                    </div>
+                </div>
+                <strong><p className="copyright">TA PRPLBK Kel-16 © 2021</p></strong>
             </div>
         </div >
     )
