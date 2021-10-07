@@ -32,7 +32,7 @@ export default function Home() {
             <div className="hero" style={{ height: "100vh" }}>
                 <div className="hero-text">
                     <h1 style={{ fontSize: '50px' }}>Welcome To Ruko Emak</h1>
-                    <p>Modern fashion shopping place</p>
+                    <p style={{ color: 'white' }}>Modern fashion shopping place</p>
                     <br />
                     <a className="button" href="#portofolio">Galery</a>
                 </div>
