@@ -875,6 +875,12 @@
       "des": "Lorem",
       "harga": 1212413,
       "id": 1
+    },
+    {
+      "name": "Hello",
+      "des": "Lorem",
+      "harga": 1212413,
+      "id": 2
     }
   ]
 }

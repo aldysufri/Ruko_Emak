@@ -1,13 +1,12 @@
 import './App.css';
 import { BrowserRouter, Link, Route, Switch } from 'react-router-dom'
 import Logo from './Assets/Logo.png'
-import Dashboard from './Components/Dashboard/Index'
+import Dashboard from './Components/Index'
 import Home from './Components/Home'
 import Pria from './Components/Pria'
 import Wanita from './Components/Wanita'
 
 function App() {
-  const angka = "hello";
   return (
     <BrowserRouter>
       <div className="header">

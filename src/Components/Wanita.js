@@ -124,9 +124,8 @@ function Data() {
                         <img className="abs" src={Detail.image} alt="" />
                         <p className="abs"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo ut tempore iste sed fuga vero, repellat a mollitia quibusdam placeat quis aliquam nostrum optio quam.</p>
                         <h3 className="abs">{Detail.harga}</h3>
-                        <button className="Button abs">Beli</button>
+                        <button className="Button abs" onClick={() => alert("Anda akan membali " + Detail.name)}>Beli</button>
                     </div>
-
                 </div>
             </Modal>
         </div>

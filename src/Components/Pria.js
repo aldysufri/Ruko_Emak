@@ -24,6 +24,11 @@ export default function Pria() {
     const [Detail, setDetail] = useState({});
     const [valueCategory, setValueCategory] = useState("Kemeja");
     console.log(valueCategory);
+    const [Cart, setValueCart] = useState();
+    console.log(Cart)
+    const doc = {
+        name: { Cart }
+    }
     function OpenModal(id, name, des, harga, image) {
         setDetail({
             id: id,
@@ -53,6 +58,17 @@ export default function Pria() {
                 console.log(error);
             });
     }, [valueCategory]);
+
+    // useEffect(() => {
+    //     axios({
+    //         method: "POST",
+    //         url: 'http://localhost:3001/Post',
+    //         body: JSON.stringify(doc),
+    //         headers: { 'Content-Type': 'application/json' }
+    //     })
+    // })
+
+
     return (
         <div className="center">
             <div className="btn">
@@ -102,7 +118,7 @@ export default function Pria() {
                         <img className="abs" src={Detail.image} alt="" />
                         <p className="abs"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo ut tempore iste sed fuga vero, repellat a mollitia quibusdam placeat quis aliquam nostrum optio quam.</p>
                         <h3 className="abs">{Detail.harga}</h3>
-                        <button className="Button abs" onClick={() => console.log(Detail.name)}>Beli</button>
+                        <button className="Button abs" onClick={() => alert("Anda akan membali " + Detail.name)}>Beli</button>
                     </div>
                 </div>
             </Modal>
