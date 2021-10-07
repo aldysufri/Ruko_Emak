@@ -144,7 +144,6 @@
       "des": "velit leo tempus purus",
       "harga": "Rp.50.000.00-,"
     }
-    
   ],
   "Kemeja": [
     {
@@ -432,7 +431,6 @@
       "harga": "Rp.100.000.00-,"
     }
   ],
-
   "Watch": [
     {
       "name": "Seiko SKX007",
@@ -579,7 +577,6 @@
       "harga": "Rp.100.000.00-,"
     }
   ],
-
   "Dress": [
     {
       "name": "Dess Merah",
@@ -726,7 +723,6 @@
       "harga": "Rp.100.000.00-,"
     }
   ],
-
   "Hells": [
     {
       "name": "Heels Blue Flower",
@@ -871,6 +867,14 @@
       "image": "https://source.unsplash.com/gKIloo1rpn0/230x230",
       "des": "velit leo tempus purus",
       "harga": "Rp.100.000.00-,"
+    }
+  ],
+  "Post": [
+    {
+      "name": "Hello",
+      "des": "Lorem",
+      "harga": 1212413,
+      "id": 1
     }
   ]
 }

@@ -1,6 +1,4 @@
 import React from 'react'
-import { Link, Route, Switch } from 'react-router-dom'
-import Wanita from './Wanita'
 import Logo from '../Assets/Logo.png'
 
 

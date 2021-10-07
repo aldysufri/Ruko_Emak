@@ -28,6 +28,22 @@ function Context() {
 }
 
 function Data() {
+    const customStyles = {
+        overlay: {
+            border: "none",
+            position: "fixed",
+            top: "90px",
+            overflow: "hide",
+        }, content: {
+            padding: 0,
+            margin: 15,
+            top: 25,
+            left: "300px",
+            width: "800px",
+            background: "#f0f0f0",
+            border: "none",
+        },
+    };
     const [data, SetData] = useState([]);
     const [modalIsOpen, setIsOpen] = useState(false);
     const [Detail, setDetail] = useState({});
@@ -90,7 +106,7 @@ function Data() {
                         </div>
                     </div>
                 ))}
-                <div className="footer" >
+                <div className="footer-show" >
                     <svg viewBox="0 -20 700 110" width="100%" height={110} preserveAspectRatio="none">
                         <path transform="translate(0, -20)" d="M0,10 c80,-22 240,0 350,18 c90,17 260,7.5 350,-20 v50 h-700" fill="#CEB964" />
                         <path d="M0,10 c80,-18 230,-12 350,7 c80,13 260,17 350,-5 v100 h-700z" fill="#00273F" />
@@ -100,13 +116,17 @@ function Data() {
             <Modal
                 isOpen={modalIsOpen}
                 onRequestClose={closeModal}
+                style={customStyles}
             >
                 <div className="modal">
-                    <h1>{Detail.name}</h1>
-                    <img src={Detail.image} alt="" />
-                    <h3>{Detail.harga}</h3>
-                    <p>{Detail.des}</p>
-                    <button className="button">Beli</button>
+                    <div className="abs">
+                        <h1 className="abs">{Detail.name}</h1>
+                        <img className="abs" src={Detail.image} alt="" />
+                        <p className="abs"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo ut tempore iste sed fuga vero, repellat a mollitia quibusdam placeat quis aliquam nostrum optio quam.</p>
+                        <h3 className="abs">{Detail.harga}</h3>
+                        <button className="Button abs">Beli</button>
+                    </div>
+
                 </div>
             </Modal>
         </div>

@@ -7,6 +7,7 @@ import Pria from './Components/Pria'
 import Wanita from './Components/Wanita'
 
 function App() {
+  const angka = "hello";
   return (
     <BrowserRouter>
       <div className="header">

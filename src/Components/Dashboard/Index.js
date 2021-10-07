@@ -1,44 +1,50 @@
 import React, { useEffect, useState } from "react";
 import './Dashboard.css'
-const date = new Date();
 
 export default function Index() {
-    // Jam
-    const [dateTime, setDateTime] = useState({
-        hours: date.getHours(),
-        minutes: date.getMinutes(),
-        seconds: date.getSeconds()
-    });
-
-    useEffect(() => {
-        const timer = setInterval(() => {
-            const date = new Date();
-            setDateTime({
-                hours: date.getHours(),
-                minutes: date.getMinutes(),
-                seconds: date.getSeconds()
-            });
-        }, 1000);
-        return () => clearInterval(timer);
-    }, []);
-
     // Form
     const [show, setShow] = useState(false);
     const [user, setUser] = useState("");
 
     useEffect(() => {
-        if (user === "welcome") {
-            alert(user)
-        }
-    }, [user]);
-
-    useEffect(() => {
         alert("Selamat Datang di Ruko Emak...")
     }, [])
+
+
+    const Data = [
+        {
+            name: "Aldy Sufriyanto",
+            nim: "21120118120021",
+            kel: "16",
+            image: "https://source.unsplash.com/qsjM7zomoEI/230x230"
+        },
+
+        {
+            name: "Yunita Andriana",
+            nim: "21120118120031",
+            kel: "16",
+            image: "https://source.unsplash.com/QsxToVwo1iE/230x230"
+        }
+    ]
 
     return (
         <div>
             <div className="ad">
+                <h1>Kelompok 16</h1>
+                <div className="center">
+                    {Data.map((p) => (
+                        <div className="property-card">
+                            <div className="property-image" style={{ backgroundImage: `url(${p.image})` }}>
+                                <div className="property-image-title" >
+                                </div>
+                            </div>
+                            <div className="property-description">
+                                <h5> {p.name} </h5>
+                                <p>{p.nim}</p>
+                            </div>
+                        </div>
+                    ))}
+                </div>
                 {show && (
                     <>
                         <div className="titleWrapper">
@@ -64,9 +70,6 @@ export default function Index() {
                     </>
                 )}
                 <button className="Button" onClick={() => setShow(!show)}>{show ? "hide" : "show"}</button>
-            </div>
-            <div className="jam">
-                {dateTime.hours}:{dateTime.minutes}:{dateTime.seconds}
             </div>
         </div>
 
