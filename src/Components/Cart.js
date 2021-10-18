@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import axios from "axios";
 
 export default class Cart extends Component {
     constructor(props) {
@@ -34,28 +33,25 @@ export default class Cart extends Component {
         return (
             <div className="center">
                 <div className="pria">
-                    <h1> Daftar Pesanan Anda </h1>
-                    <div>
-                        <table id="cart" >
-                            <tbody><tr>
-                                <th>Name</th>
-                                <th>Image</th>
-                                <th>Harga</th>
-                                <th>Aksi</th>
-                            </tr>
-                                {
-                                    items.map((item) => (
-                                        <tr key={item.id}>
-                                            <td><img src={item.image} height={110} alt="" /></td>
-                                            <td>{item.name}</td>
-                                            <td>{item.harga}</td>
-                                            <td><button className="Button" style={{ backgroundColor: "red" }} onClick={() => { this.delete(item.id) }}>Batal</button></td>
-                                        </tr>
-
-                                    ))
-                                }
-                            </tbody></table>
-                    </div>
+                    <h1> Daftar Pesanan Anda  </h1>
+                    <table id="cart" >
+                        <tbody><tr>
+                            <th>Image</th>
+                            <th>Name</th>
+                            <th>Harga</th>
+                            <th>Aksi</th>
+                        </tr>
+                            {
+                                items.map((item) => (
+                                    <tr key={item.id}>
+                                        <td><img src={item.image} height={110} alt="" /></td>
+                                        <td>{item.name}</td>
+                                        <td>{item.harga}</td>
+                                        <td><button className="Button" style={{ backgroundColor: "red" }} onClick={() => { this.delete(item.id) }}>Batal</button></td>
+                                    </tr>
+                                ))
+                            }
+                        </tbody></table>
                 </div>
             </div>
         );
