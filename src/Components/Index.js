@@ -1,6 +1,11 @@
 import React, { useEffect, useState } from "react";
 
-export default function Index() {
+export default function Index(props) {
+    const {
+        Data,
+        title
+    } = props;
+
     // Form
     const [show, setShow] = useState(false);
     const [user, setUser] = useState("");
@@ -10,27 +15,10 @@ export default function Index() {
         alert("Selamat Datang di Ruko Emak...")
     }, [])
 
-
-    const Data = [
-        {
-            name: "Aldy Sufriyanto",
-            nim: "21120118120021",
-            kel: "16",
-            image: "https://source.unsplash.com/qsjM7zomoEI/230x230"
-        },
-
-        {
-            name: "Yunita Andriana",
-            nim: "21120118120031",
-            kel: "16",
-            image: "https://source.unsplash.com/QsxToVwo1iE/230x230"
-        }
-    ]
-
     return (
         <div>
             <div className="ad">
-                <h1>Kelompok 16</h1>
+                <h1>{title}</h1>
                 <div className="center">
                     {Data.map((p) => (
                         <div className="property-card">

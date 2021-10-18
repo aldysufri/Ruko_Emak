@@ -4,15 +4,16 @@ import Modal from 'react-modal';
 
 const CategoryContext = createContext();
 Modal.setAppElement("#root");
-export default function Wanita() {
+export default function Wanita(props) {
+    const { jam, dress, hells } = props;
     const [valueCategory, setValueCategory] = useState("Dress");
     console.log(valueCategory);
     return (
         <CategoryContext.Provider value={valueCategory}>
             <div className="center btn">
-                <button onClick={() => setValueCategory("Watch")}>Jam Tangan</button>
-                <button onClick={() => setValueCategory("Dress")}>Dress</button>
-                <button onClick={() => setValueCategory("Hells")}>Hells</button>
+                <button onClick={() => setValueCategory("Watch")}>{jam}</button>
+                <button onClick={() => setValueCategory("Dress")}>{dress}</button>
+                <button onClick={() => setValueCategory("Hells")}>{hells}</button>
             </div>
             <Context />
         </CategoryContext.Provider>

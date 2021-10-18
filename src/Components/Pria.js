@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import Modal from 'react-modal';
 
-export default function Pria() {
+export default function Pria(props) {
+    const { topi, kemeja, sepatu } = props;
     const customStyles = {
         overlay: {
             border: "none",
@@ -75,11 +76,10 @@ export default function Pria() {
     return (
         <div className="center">
             <div className="btn">
-                <button onClick={() => setValueCategory("Topi")}>Topi</button>
-                <button onClick={() => setValueCategory("Kemeja")}>Kemeja</button>
-                <button onClick={() => setValueCategory("Sepatu")}>Sepatu</button>
+                <button onClick={() => setValueCategory("Topi")}>{topi}</button>
+                <button onClick={() => setValueCategory("Kemeja")}>{kemeja}</button>
+                <button onClick={() => setValueCategory("Sepatu")}>{sepatu}</button>
             </div>
-
             <div className="pria center">
                 {data.map((p) => (
                     <div item key={p.id}>

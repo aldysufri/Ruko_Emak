@@ -2,31 +2,8 @@ import React from 'react'
 import Logo from '../Assets/Logo.png'
 
 
-export default function Home() {
-    const Data = [
-        {
-            name: "Dress",
-            sc: "12.5k + Pencarian",
-            image: "https://source.unsplash.com/gMkpcMPno-w/230x230"
-        },
-
-        {
-            name: "Shoes",
-            sc: "12.5k + Pencarian",
-            image: "https://source.unsplash.com/OX_en7CXMj4/230x230"
-        },
-        {
-            name: "Shirt",
-            sc: "12.5k + Pencarian",
-            image: "https://source.unsplash.com/hMMXhKSZk7k/230x230"
-        },
-
-        {
-            name: "Watch",
-            sc: "12.5k + Pencarian",
-            image: "https://source.unsplash.com/rBPOfVqROzY/230x230"
-        }
-    ]
+export default function Home(props) {
+    const { Top, toptitle } = props;
     return (
         <div className="home">
             <div className="hero" style={{ height: "100vh" }}>
@@ -39,9 +16,9 @@ export default function Home() {
             </div>
 
             <div className="top">
-                <h2>Top Searches This Week</h2>
+                <h2>{toptitle}</h2>
                 <div className="center">
-                    {Data.map((p) => (
+                    {Top.map((p) => (
                         <div className="property-card">
                             <div className="property-image" style={{ backgroundImage: `url(${p.image})` }}>
                                 <div className="property-image-title" >

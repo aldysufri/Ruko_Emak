@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 export default class Cart extends Component {
+
     constructor(props) {
         super(props);
 
@@ -8,6 +9,7 @@ export default class Cart extends Component {
             items: []
         };
     }
+
 
     componentDidMount() {
         fetch(
@@ -33,7 +35,8 @@ export default class Cart extends Component {
         return (
             <div className="center">
                 <div className="pria">
-                    <h1> Daftar Pesanan Anda  </h1>
+                    <h1>{this.props.titlecart}</h1>
+                    <p style={{ color: "red" }}>{this.props.cartdes}</p>
                     <table id="cart" >
                         <tbody><tr>
                             <th>Image</th>
