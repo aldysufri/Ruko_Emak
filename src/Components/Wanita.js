@@ -81,6 +81,25 @@ function Data() {
                 console.log(error);
             });
     }, [category]);
+
+    function indb(name, hrg, img) {
+
+        const data = {
+            name: name,
+            image: img,
+            harga: hrg
+        }
+        // console.log(data)
+
+        fetch('http://localhost:3001/Post', {
+            method: "POST",
+            body: JSON.stringify(data),
+            headers: { 'Content-Type': 'application/json' }
+        });
+        alert("Pesanan " + data.name + " Berhasil ditambahkan, Silahkan cek di cart")
+        window.location.reload()
+    }
+
     return (
         <div>
             <div className="center pria">
@@ -124,7 +143,7 @@ function Data() {
                         <img className="abs" src={Detail.image} alt="" />
                         <p className="abs"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo ut tempore iste sed fuga vero, repellat a mollitia quibusdam placeat quis aliquam nostrum optio quam.</p>
                         <h3 className="abs">{Detail.harga}</h3>
-                        <button className="Button abs" onClick={() => alert("Anda akan membali " + Detail.name)}>Beli</button>
+                        <button className="Button abs" onClick={() => { indb(Detail.name, Detail.harga, Detail.image) }}>Beli</button>
                     </div>
                 </div>
             </Modal>

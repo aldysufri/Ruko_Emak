@@ -5,6 +5,7 @@ export default function Index() {
     const [show, setShow] = useState(false);
     const [user, setUser] = useState("");
 
+
     useEffect(() => {
         alert("Selamat Datang di Ruko Emak...")
     }, [])

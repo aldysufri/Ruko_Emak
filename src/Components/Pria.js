@@ -23,12 +23,7 @@ export default function Pria() {
     const [modalIsOpen, setIsOpen] = useState(false);
     const [Detail, setDetail] = useState({});
     const [valueCategory, setValueCategory] = useState("Kemeja");
-    console.log(valueCategory);
-    const [Cart, setValueCart] = useState();
-    console.log(Cart)
-    const doc = {
-        name: { Cart }
-    }
+
     function OpenModal(id, name, des, harga, image) {
         setDetail({
             id: id,
@@ -59,15 +54,23 @@ export default function Pria() {
             });
     }, [valueCategory]);
 
-    // useEffect(() => {
-    //     axios({
-    //         method: "POST",
-    //         url: 'http://localhost:3001/Post',
-    //         body: JSON.stringify(doc),
-    //         headers: { 'Content-Type': 'application/json' }
-    //     })
-    // })
+    function indb(name, hrg, img) {
 
+        const data = {
+            name: name,
+            image: img,
+            harga: hrg
+        }
+        // console.log(data)
+
+        fetch('http://localhost:3001/Post', {
+            method: "POST",
+            body: JSON.stringify(data),
+            headers: { 'Content-Type': 'application/json' }
+        });
+        alert("Pesanan " + data.name + " Berhasil ditambahkan, Silahkan cek di cart")
+        window.location.reload()
+    }
 
     return (
         <div className="center">
@@ -118,7 +121,7 @@ export default function Pria() {
                         <img className="abs" src={Detail.image} alt="" />
                         <p className="abs"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo ut tempore iste sed fuga vero, repellat a mollitia quibusdam placeat quis aliquam nostrum optio quam.</p>
                         <h3 className="abs">{Detail.harga}</h3>
-                        <button className="Button abs" onClick={() => alert("Anda akan membali " + Detail.name)}>Beli</button>
+                        <button className="Button abs" onClick={() => { indb(Detail.name, Detail.harga, Detail.image) }}>Beli</button>
                     </div>
                 </div>
             </Modal>

@@ -871,15 +871,15 @@
   ],
   "Post": [
     {
-      "name": "Hello",
-      "des": "Lorem",
-      "harga": 1212413,
+      "name": "Kemeja Garis Biru",
+      "image": "https://source.unsplash.com/4c23dXiYPhc/230x230",
+      "harga": "Rp.100.000.00-,",
       "id": 1
     },
     {
-      "name": "Hello",
-      "des": "Lorem",
-      "harga": 1212413,
+      "name": "indian kashmiri kaftaan Merah muda",
+      "image": "https://source.unsplash.com/G8oolyQhRsM/230x230",
+      "harga": "Rp.100.000.00-,",
       "id": 2
     }
   ]
