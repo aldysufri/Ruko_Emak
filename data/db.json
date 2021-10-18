@@ -869,42 +869,5 @@
       "harga": "Rp.100.000.00-,"
     }
   ],
-  "Post": [
-    {
-      "name": "Kemeja Garis Biru",
-      "image": "https://source.unsplash.com/4c23dXiYPhc/230x230",
-      "harga": "Rp.100.000.00-,",
-      "id": 1
-    },
-    {
-      "name": "indian kashmiri kaftaan Merah muda",
-      "image": "https://source.unsplash.com/G8oolyQhRsM/230x230",
-      "harga": "Rp.100.000.00-,",
-      "id": 2
-    },
-    {
-      "name": "Gold Watch",
-      "image": "https://source.unsplash.com/331tAGMqa8Y/230x230",
-      "harga": "Rp.100.000.00-,",
-      "id": 3
-    },
-    {
-      "name": "Heels Black",
-      "image": "https://source.unsplash.com/pEzLon__DfM/230x230",
-      "harga": "Rp.100.000.00-,",
-      "id": 4
-    },
-    {
-      "name": "Topi BN Merah",
-      "image": "https://source.unsplash.com/yGeVdMgmFyE/230x230",
-      "harga": "Rp.50.000.00-,",
-      "id": 5
-    },
-    {
-      "name": "Air max 90 PREMIUM Curry",
-      "image": "https://source.unsplash.com/j1GiPlvSGWI/230x230",
-      "harga": "Rp.100.000.00-,",
-      "id": 6
-    }
-  ]
+  "Post": []
 }
