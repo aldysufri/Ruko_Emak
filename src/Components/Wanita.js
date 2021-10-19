@@ -102,8 +102,12 @@ function Data() {
     }
 
     return (
-        <div>
-            <div className="center pria">
+        <div className="center">
+            <div className="pria">
+                <h1>Daftar {category} Pilihan Terbaru</h1>
+                <p style={{ color: "red" }}>-Pilih {category} sesuai style anda-</p>
+            </div>
+            <div style={{ marginTop: 85 }} className="pria center">
                 {data.map((p) => (
                     <div item key={p.id}>
                         <div className="property-card" onClick={() => {

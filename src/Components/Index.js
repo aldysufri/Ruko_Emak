@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 export default function Index(props) {
     const {
         Data,
-        title
+        title,
     } = props;
 
     // Form
@@ -43,6 +43,7 @@ export default function Index(props) {
                             <div>
                                 <input
                                     size="50"
+                                    id="in"
                                     value=
                                     {user} onChange={(event) => setUser(event.target.value)} onKeyUp={(e) => {
                                         if (e.key === 'Enter') {

@@ -80,7 +80,12 @@ export default function Pria(props) {
                 <button onClick={() => setValueCategory("Kemeja")}>{kemeja}</button>
                 <button onClick={() => setValueCategory("Sepatu")}>{sepatu}</button>
             </div>
-            <div className="pria center">
+
+            <div className="pria">
+                <h1>Daftar {valueCategory} Pilihan Terbaru</h1>
+                <p style={{ color: "red" }}>-Pilih {valueCategory} sesuai style anda-</p>
+            </div>
+            <div style={{ marginTop: 85 }} className="pria center">
                 {data.map((p) => (
                     <div item key={p.id}>
                         <div className="property-card" onClick={() => {
