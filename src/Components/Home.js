@@ -12,6 +12,7 @@ export default function Home(props) {
                     <p style={{ color: 'white' }}>Modern fashion shopping place</p>
                     <br />
                     <a className="button" href="#portofolio">Galery</a>
+                    <a className="button" href="#Testi">Testimoni</a>
                 </div>
             </div>
 
@@ -48,6 +49,14 @@ export default function Home(props) {
                     <img src="https://source.unsplash.com/random/205x209/?Fashion" alt="" />
                 </div>
             </section>
+            
+ <section id="Testi" className="container">
+                <div className="Testimoni">
+                    <h2>Testimoni</h2>
+                    <a href='https://postimg.cc/0K9DJCYj' target='_blank'><img src='https://i.postimg.cc/brtTWCdx/testimoni.png' border='0' alt='testimoni'/></a>
+                    
+                </div>
+            </section>
 
             <div className="container-footer">
                 <div className="footer">
@@ -69,7 +78,8 @@ export default function Home(props) {
                     <div className="footer-items">
                         <img width={70} src={Logo} />
                         <h3>Ruko Emak</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi non voluptatibus, saepe, asperiores beatae error ducimus dicta laudantium, nulla hic qui. Nobis nisi earum deserunt odio quaerat, officia sequi esse excepturi fugit cumque laudantium obcaecati maxime placeat ratione fuga? Cum aut optio repudiandae ipsum, quo illo est molestias nostrum nisi porro voluptatum. Excepturi nemo suscipit, nam laborum officia eveniet, aspernatur quas corporis iusto quisquam minus rerum culpa dignissimos unde. Odio.</p>
+                        <p>Jl.Haha hihi No 11</p>
+                        <p>Tembalang-Semarang  123456</p>
                     </div>
                 </div>
                 <strong><p className="copyright">TA PRPLBK Kel-16 © 2021</p></strong>
