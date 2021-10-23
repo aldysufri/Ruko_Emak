@@ -8,6 +8,8 @@ import Home from './Components/Home'
 import Pria from './Components/Pria'
 import Wanita from './Components/Wanita'
 import Cart from './Components/Cart'
+import Al from './Assets/aldy.jpg'
+import yu from './Assets/yunita.jpg'
 
 const Top = [
   {
@@ -39,14 +41,14 @@ const Data = [
     name: "Aldy Sufriyanto",
     nim: "21120118120021",
     kel: "16",
-    image: "https://source.unsplash.com/qsjM7zomoEI/230x230"
+    image: Al
   },
 
   {
     name: "Yunita Andriana",
     nim: "21120118120031",
     kel: "16",
-    image: "https://source.unsplash.com/QsxToVwo1iE/230x230"
+    image: yu
   }
 ]
 
